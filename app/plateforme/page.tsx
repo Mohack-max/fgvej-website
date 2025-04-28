@@ -83,46 +83,55 @@ export default function PlatformPage() {
 
       {/* Sign Up Section */}
       <section className="py-16 bg-green-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      {/* FIRST COLUMN */}
+      <div>
+        <h2 className="text-3xl font-bold mb-6">Inscrivez-vous et lancez votre projet durable</h2>
+        <p className="text-gray-700 mb-6">
+          Rejoignez FGVEJ et accédez à un espace dédié pour structurer et gérer votre projet. Créez votre profil, 
+          présentez votre idée, et bénéficiez d'un accompagnement sur mesure pour chaque étape.
+        </p>
+        
+        <div className="space-y-6 mb-8">
+          <div className="flex">
+            <div className="bg-green-100 p-2 rounded-full mr-4 h-8 w-8 flex items-center justify-center">
+              <span className="text-green-600 font-bold">1</span>
+            </div>
             <div>
-              <h2 className="text-3xl font-bold mb-6">Inscrivez-vous et lancez votre projet durable</h2>
-              <p className="text-gray-700 mb-6">
-                Rejoignez FGVEJ et accédez à un espace dédié pour structurer et gérer votre projet. Créez votre profil, 
-                présentez votre idée, et bénéficiez d'un accompagnement sur mesure pour chaque étape.
+              <h3 className="text-lg font-semibold mb-1">Informations de Base</h3>
+              <p className="text-gray-600">
+                Partagez vos informations personnelles et celles de votre projet pour démarrer votre aventure avec FGVEJ.
               </p>
-              
-              <div className="space-y-6 mb-8">
-                <div className="flex">
-                  <div className="bg-green-100 p-2 rounded-full mr-4 h-8 w-8 flex items-center justify-center">
-                    <span className="text-green-600 font-bold">1</span>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-1">Informations de Base</h3>
-                    <p className="text-gray-600">
-                      Partagez vos informations personnelles et celles de votre projet pour démarrer votre aventure avec FGVEJ.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex">
-                  <div className="bg-green-100 p-2 rounded-full mr-4 h-8 w-8 flex items-center justify-center">
-                    <span className="text-green-600 font-bold">2</span>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-1">Description du Projet</h3>
-                    <p className="text-gray-600">
-                      Décrivez votre projet, ses objectifs et son impact écologique.
-                    </p>
-                  </div>
-                </div>
+            </div>
+          </div>
 
-              </div>
+          <div className="flex">
+            <div className="bg-green-100 p-2 rounded-full mr-4 h-8 w-8 flex items-center justify-center">
+              <span className="text-green-600 font-bold">2</span>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-1">Description du Projet</h3>
+              <p className="text-gray-600">
+                Décrivez votre projet, ses objectifs et son impact écologique.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
+      {/* SECOND COLUMN (example image or something else) */}
+      <div className="flex justify-center">
+        <img
+          src="/placeholder.svg"
+          alt="Illustration Projet Durable"
+          className="w-full max-w-md"
+        />
+      </div>
+      
     </div>
-  )
+  </div>
+</section>
+</div>
+)
 }
