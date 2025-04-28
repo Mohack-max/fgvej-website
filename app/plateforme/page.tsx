@@ -30,8 +30,8 @@ export default function PlatformPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-green-900 to-transparent opacity-90"></div>
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-20"></div>
       </section>
-zz
-      {}
+
+      {/* Why Choose Us Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Pourquoi choisir FGVEJ pour soutenir votre projet ?</h2>
@@ -79,10 +79,9 @@ zz
             </Card>
           </div>
         </div>
-    
       </section>
 
-      {}
+      {/* Sign Up Section */}
       <section className="py-16 bg-green-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -117,8 +116,13 @@ zz
                     </p>
                   </div>
                 </div>
-                
-                <div className="flex">
-                  <div className="bg-green-100 p-2 rounded-full mr-4 h-8 w-8 flex items-center justify-\"></div>
-                  </div>
-                  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  )
+}
